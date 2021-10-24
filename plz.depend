@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1635077904 source:c:\users\user\desktop\plz\debug.cpp
+	"Projekt.h"
+	<iostream>
+	<cstdlib>
+
+1635100542 c:\users\user\desktop\plz\projekt.h
+	<iostream>
+	<string>
+	<cstdlib>
+
+1635101671 source:c:\users\user\desktop\plz\funkcje.cpp
+	"projekt.h"
+	<iostream>
+	<windows.h>
+	<fstream>
+	<string>
+	<stdio.h>
+	<time.h>
+	<cstdlib>
+
+1635099326 source:c:\users\user\desktop\plz\menu.cpp
+	"projekt.h"
+	<iostream>
+	<windows.h>
+	<cstdlib>
+
+1635105014 source:c:\users\user\desktop\plz\nowe_konto.cpp
+	"projekt.h"
+	<iostream>
+	<fstream>
+	<string>
+	<windows.h>
+	<cstdlib>
+
+1635015414 source:c:\users\user\desktop\plz\source.cpp
+	"projekt.h"
+	<iostream>
+	<windows.h>
+	<cstdlib>
+
+1635103708 source:c:\users\user\desktop\plz\usun_konto.cpp
+	"projekt.h"
+	<iostream>
+	<fstream>
+	<limits>
+	<cstdlib>
+
+1635081514 source:c:\users\user\desktop\plz\edit_konto.cpp
+	"projekt.h"
+	<iostream>
+	<fstream>
+	<windows.h>
+	<list>
+	<vector>
+	<limits>
+	<cstdlib>
+
+1635099492 source:c:\users\user\desktop\plz\t_balans.cpp
+	"projekt.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<list>
+	<algorithm>
+	<cctype>
+	<sstream>
+	<string>
+	<windows.h>
+
+1635103275 source:c:\users\user\desktop\plz\historia.cpp
+	"projekt.h"
+	<iostream>
+	<vector>
+	<list>
+	<fstream>
+	<windows.h>
+
+1635099351 source:c:\users\user\desktop\plz\debug2.cpp
+	"Projekt.h"
+	<iostream>
+	<cstdlib>
+
