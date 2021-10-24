@@ -19,7 +19,7 @@
 	<time.h>
 	<cstdlib>
 
-1635099326 source:c:\users\user\desktop\plz\menu.cpp
+1635105259 source:c:\users\user\desktop\plz\menu.cpp
 	"projekt.h"
 	<iostream>
 	<windows.h>
@@ -39,7 +39,7 @@
 	<windows.h>
 	<cstdlib>
 
-1635103708 source:c:\users\user\desktop\plz\usun_konto.cpp
+1635108232 source:c:\users\user\desktop\plz\usun_konto.cpp
 	"projekt.h"
 	<iostream>
 	<fstream>
