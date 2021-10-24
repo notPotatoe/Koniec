@@ -28,9 +28,11 @@ void Projekt::usun_konto()
 		cin.clear();
 		cin.ignore(1000, '\n');
 	}
-	while (getline(main, wiersz))
+	if (id == 1)
+    {
+while (getline(main, wiersz))
 	{
-		if (linijka / ((id * 9) - 9) != 1 || ile == 9)
+        if (ile == 9)
 		{
 			temp << wiersz;
 			if (linijka < liczba_linijek - 1)
@@ -49,9 +51,34 @@ void Projekt::usun_konto()
 		}
 		linijka++;
 	}
+
+    }
+    else
+    {
+	while (getline(main, wiersz))
+	{
+        if (linijka / ((id * 9) - 9) != 1 || ile == 9)
+		{
+			temp << wiersz;
+			if (linijka < liczba_linijek - 1)
+			{
+				temp << endl;
+			}
+		}
+		else
+		{
+		    temp << "USUNIETE";
+			ile++;
+			if (linijka <= liczba_linijek - 2)
+			{
+				temp << endl;
+			}
+		}
+		linijka++;
+	}
+    }
 	main.close();
 	temp.close();
-    system("PAUSE");
 	main.open(pro.path_konta, fstream::out);
 	temp.open("Dane/temp.dat", fstream::in);
 	linijka = 0;
